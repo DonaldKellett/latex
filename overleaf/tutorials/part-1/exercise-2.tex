@@ -1,0 +1,30 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you give
+% someone the link to this page, they can edit at the same
+% time. See the help menu above for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+% hints:
+% 1. you might want to use the amsmath package
+% 2. the command for an infinity symbol is \infty
+
+Let $X_1,X_2,\ldots,X_n$ be a sequence of independent and
+identically distributed random variables with
+$\operatorname{E}[X_i]=\mu$ and $\operatorname{Var}[X_i]=\sigma^2<\infty$,
+and let
+
+\begin{equation*}
+S_n=\frac{1}{n}\sum_i^n X_i
+\end{equation*}
+
+denote their mean. Then as $n$ approaches infinity, the
+random variables $\sqrt{n}(S_n-\mu)$ converge in
+distribution to a normal $N(0,\sigma^2)$.
+
+\end{document}
